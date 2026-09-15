@@ -1,0 +1,1 @@
+ALTER TABLE "messages" RENAME COLUMN "message_text" TO "content";

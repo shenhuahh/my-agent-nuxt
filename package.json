@@ -1,0 +1,28 @@
+{
+  "name": "my-agent-nuxt",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^4.0.66",
+    "@ai-sdk/vue": "^4.0.99",
+    "@nuxt/ui": "^4.11.1",
+    "ai": "^7.0.99",
+    "drizzle-orm": "^0.45.2",
+    "nuxt": "^4.5.2",
+    "postgres": "^3.4.9",
+    "vue": "^3.5.42",
+    "vue-router": "^5.3.1",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^26.5.1",
+    "drizzle-kit": "^0.31.10"
+  }
+}
