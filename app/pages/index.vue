@@ -6,7 +6,6 @@ import { ref, onMounted } from 'vue'
 const chatId = ref<string | null>(null)
 const input = ref('')
 const isLoadingHistory = ref(true)
-
 // ✅ transport 中通过 body 传递 chatId（v7 支持函数形式动态取值）
 const { messages, sendMessage, status } = useChat(() => ({
   transport: new DefaultChatTransport({
