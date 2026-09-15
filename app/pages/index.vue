@@ -3,7 +3,6 @@
 import { useChat } from '@ai-sdk/vue'
 import { DefaultChatTransport, type UIMessage } from 'ai'
 import { ref, onMounted } from 'vue'
-
 const chatId = ref<string | null>(null)
 const input = ref('')
 const isLoadingHistory = ref(true)
